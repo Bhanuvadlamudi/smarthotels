@@ -1,10 +1,10 @@
 #!/bin/bash
 
-sudo pip3 install -U nltk
-pip3 install --upgrade gensim
-pip3 install -U spacy
-python3 -m spacy download en
+sudo pip install -U nltk
+pip install --upgrade gensim
+pip install -U spacy
+python -m spacy download en
 
-pip3 install pyldavis
-pip3 install bokeh
+pip install pyldavis
+pip install bokeh
 
