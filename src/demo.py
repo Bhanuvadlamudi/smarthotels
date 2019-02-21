@@ -46,8 +46,8 @@ import warnings
 warnings.filterwarnings("ignore",category=DeprecationWarning)
 
 
-alldata = pd.read_json('./src/minidemo.json',orient='columns',encoding='utf-8')
-star_score_df = pd.read_json('./src/hotel_star_scores.json',encoding='utf-8')
+alldata = pd.read_json('/src/smarthotels/src/minidemo.json',orient='columns',encoding='utf-8')
+star_score_df = pd.read_json('/src/smarthotels/src/hotel_star_scores.json',encoding='utf-8')
 mallet_lda_topics={
                 0:'Hotel Staff',
                 1:'Accessibility',
