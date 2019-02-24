@@ -27,7 +27,7 @@ from nltk import tokenize
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-nltk.download('vader_lexicon', download_dir='/src/smarthotels/src')
+nltk.download('vader_lexicon', download_dir='/src/smarthotels/src/sentiment')
 # TextBlob package for translation and spelling correction
 from textblob import TextBlob
 
