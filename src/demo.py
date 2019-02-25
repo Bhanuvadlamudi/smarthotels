@@ -31,7 +31,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 # TextBlob package for translation and spelling correction
 from textblob import TextBlob
 
-nlp = spacy.load('en')
+#nlp = spacy.load('en')
 # Plotting tools
 import pyLDAvis
 import pyLDAvis.gensim  # don't skip this
